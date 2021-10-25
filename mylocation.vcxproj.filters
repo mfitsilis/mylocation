@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Object Include="..\c.obj" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_dx9.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="util.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Table.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="mainui.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="GeoPoint.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Altitude.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Statistics.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource1.h" />
+    <ClInclude Include="..\..\imgui.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_dx9.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imgui_internal.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imconfig.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Table.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="mytypes.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="myspace.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="mainui.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="k.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Altitude.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GeoPoint.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Statistics.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="mylocation.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="..\..\misc\natvis\imgui.natvis">
+      <Filter>ImGui</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{2d8de719-3e86-45ba-8257-7277957b18e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{98abb7f0-45f8-4519-9ca5-47c209e31d5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{901a37d1-198e-43a8-b4da-fd684befc94b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
